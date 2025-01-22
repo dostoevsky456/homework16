@@ -91,7 +91,7 @@ let techLeaders = [
     {
          name: "Elon Musk",
          company: "Tesla, SpaceX",
-         title: "CEO",
+         speciality: "CEO",
          age: 52, 
          yearsAtCompany: 20,
          booksPublished: 0,
@@ -103,233 +103,299 @@ let techLeaders = [
     {
          name: "Sundar Pichai",
          company: "Google",
-         title: "CEO",
+         speciality: "CEO",
          age: 51,
-         yearsAtCompany: 19,
+         yearsAtCompany: 19, 
          booksPublished: 0,
          isMarried: true,
          hasChildren: true,
          isPoor: false,
-         notableAchievements: ["Android growth", "Google AI development", "Chrome leadership"]
+         notAbleAchievements: ["Android growth", "Google AI development", "Chrome leadership"]
     },
     {
         name: "Mark Zuckerberg",
         company: "Meta",
-        title: "CEO",
+        speciality: "CEO",
         age: 40,
         yearsAtCompany: 19,
         booksPublished: 0,
         isMarried: true,
         hasChildren: true,
         isPoor: false,
-        notableAchievements: ["Facebook dominance", "Acquisition of WhatsApp", "Advancing the Metaverse"]
+        notAbleAchievements: ["Facebook dominance", "Acquisition of WhatsApp", "Advancing the Metaverse"]
     },
     {
         name: "Brendan Eich",
         company: "Mozilla, Brave",
-        title: "Co-Founder",
+        speciality: "Co-Founder",
         age: 62,
         yearsAtCompany: 25,
         booksPublished: 0,
         isMarried: true,
         hasChildren: true,
         isPoor: false,
-        notableAchievements: ["Created JavaScript", "Built Brave Browser", "Led Mozilla Firefox"]
+        notAbleAchievements: ["Created JavaScript", "Built Brave Browser", "Led Mozilla Firefox"]
     },
     {
         name: "Susan Wojcicki",
         company: "YouTube",
-        title: "Former CEO",
+        speciality: "Former CEO",
         age: 55,
-        yearsAtCompany: 25,
+        yearsAtCompany: 25, 
         booksPublished: 1,
         isMarried: true,
         hasChildren: true,
         isPoor: false,
-        notableAchievements: ["Monetized YouTube", "YouTube Kids", "YouTube Originals"]
+        notAbleAchievements: ["Monetized YouTube", "YouTube Kids", "YouTube Originals"]
     },
     {
         name: "James Gosling",
         company: "Sun Microsystems",
-        title: "Creator of Java",
+        speciality: "Creator of Java",
         age: 68,
         yearsAtCompany: 22,
         booksPublished: 2,
         isMarried: true,
         hasChildren: true,
         isPoor: false,
-        notableAchievements: ["Invented Java", "Pioneered JVM", "Advanced programming tools"]
+        notAbleAchievements: ["Invented Java", "Pioneered JVM", "Advanced programming tools"]
     },
     {
         name: "Jeff Bezos",
         company: "Amazon",
-        title: "Founder",
+        speciality: "Founder",
         age: 59,
         yearsAtCompany: 29,
         booksPublished: 1,
         isMarried: false,
         hasChildren: true,
         isPoor: false,
-        notableAchievements: ["Built Amazon empire", "Launched AWS", "Founded Blue Origin"]
+        notAbleAchievements: ["Built Amazon empire", "Launched AWS", "Founded Blue Origin"]
     },
     {
         name: "Anders Hejlsberg",
         company: "Microsoft",
-        title: "Lead Developer",
+        speciality: "Lead Developer",
         age: 63,
         yearsAtCompany: 23,
         booksPublished: 0,
         isMarried: true,
         hasChildren: true,
         isPoor: false,
-        notableAchievements: ["Developed TypeScript", "Turbo Pascal", "Delphi framework"]
+        notAbleAchievements: ["Developed TypeScript", "Turbo Pascal", "Delphi framework"]
     },
     {
         name: "John Giannandrea",
         company: "Apple",
-        title: "Senior VP of ML & AI",
+        speciality: "Senior VP of ML & AI",
         age: 52,
         yearsAtCompany: 8,
         booksPublished: 0,
         isMarried: true,
         hasChildren: false,
         isPoor: false,
-        notableAchievements: ["AI at Google", "Improved Siri", "Advances in ML at Apple"]
+        notAbleAchievements: ["AI at Google", "Improved Siri", "Advances in ML at Apple"]
     },
     {
         name: "Linus Torvalds",
         company: "Linux Foundation",
-        title: "Creator",
+        speciality: "Creator",
         age: 54,
         yearsAtCompany: 30,
         booksPublished: 1,
         isMarried: true,
         hasChildren: true,
         isPoor: false,
-        notableAchievements: ["Created Linux", "Built Git", "Led open source movement"]
+        notAbleAchievements: ["Created Linux", "Built Git", "Led open source movement"]
     },
     {
         name: "Tim Cook",
         company: "Apple",
-        title: "CEO",
+        speciality: "CEO",
         age: 63,
         yearsAtCompany: 10,
         booksPublished: 0,
         isMarried: false,
         hasChildren: false,
         isPoor: false,
-        notableAchievements: ["Took Apple to $2 Trillion", "Expansion of Apple products"]
+        notAbleAchievements: ["Took Apple to $2 Trillion", "Expansion of Apple products"]
     },
     {
         name: "Andrew Jessie",
         company: "Google",
-        title: "SVP of Technical Infrastructure",
+        speciality: "SVP of Technical Infrastructure",
         age: 49,
         yearsAtCompany: 18,
         booksPublished: 0,
         isMarried: true,
         hasChildren: false,
         isPoor: false,
-        notableAchievements: ["Managed Google Cloud", "Infrastructure Leader"]
+        notAbleAchievements: ["Managed Google Cloud", "Infrastructure Leader"]
     },
     {
         name: "Bjarne Stroustrup",
         company: "AT&T Bell Labs",
-        title: "Creator of C++",
+        speciality: "Creator of C++",
         age: 74,
         yearsAtCompany: 30,
         booksPublished: 3,
         isMarried: true,
         hasChildren: true,
         isPoor: false,
-        notableAchievements: ["Created C++", "Advanced Object-Oriented Programming"]
+        notAbleAchievements: ["Created C++", "Advanced Object-Oriented Programming"]
     },
     {
         name: "Anders Halesberg",
         company: "Microsoft",
-        title: "Lead Developer",
+        speciality: "Lead Developer",
         age: 59,
         yearsAtCompany: 24,
         booksPublished: 0,
         isMarried: true,
         hasChildren: true,
         isPoor: false,
-        notableAchievements: ["Developed C# and TypeScript"]
+        notAbleAchievements: ["Developed C# and TypeScript"]
     },
     {
         name: "Sir Tim Berners-Lee",
         company: "World Wide Web Consortium",
-        title: "Director",
+        speciality: "Director",
         age: 69,
         yearsAtCompany: 33,
         booksPublished: 1,
         isMarried: true,
         hasChildren: true,
         isPoor: false,
-        notableAchievements: ["Invented the World Wide Web"]
+        notAbleAchievements: ["Invented the World Wide Web"]
     },
     {
         name: "John Carmack",
         company: "Oculus, id Software",
-        title: "Founder, CTO",
+        speciality: "Founder, CTO",
         age: 53,
         yearsAtCompany: 10,
         booksPublished: 0,
         isMarried: true,
         hasChildren: true,
         isPoor: false,
-        notableAchievements: ["Created Doom, Quake", "Pioneered VR tech"]
+        notAbleAchievements: ["Created Doom, Quake", "Pioneered VR tech"]
     },
     {
         name: "Jack Dorsey",
         company: "Twitter, Square",
-        title: "Founder, CEO",
+        speciality: "Founder, CEO",
         age: 48,
         yearsAtCompany: 18,
-        booksPublished: 0,
+        booksPublished: 0, 
         isMarried: false, 
         hasChildren: false,
         isPoor: false,
-        notableAchievements: ["Founded Twitter", "Developed Square"]
+        notAbleAchievements: ["Founded Twitter", "Developed Square"]
     },
     {
         name: "Reed Hastings",  
         company: "Netflix",
-        title: "CEO",
+        speciality: "CEO",
         age: 64,
         yearsAtCompany: 24,
         booksPublished: 0,
         isMarried: true,
         hasChildren: true,
         isPoor: false,
-        notableAchievements: ["Founded Netflix", "Disrupted entertainment"]
+        notAbleAchievements: ["Founded Netflix", "Disrupted entertainment"]
     },
     {
         name: "Larry Page",
         company: "Google",
-        title: "Co-Founder",
+        speciality: "Co-Founder",
         age: 50,
         yearsAtCompany: 20,
         booksPublished: 0,
         isMarried: true,
         hasChildren: true,
         isPoor: false,
-        notableAchievements: ["Created Google", "Pioneered Google Search"]
+        notAbleAchievements: ["Created Google", "Pioneered Google Search"]
     },
     {
         name: "Sergey Brin",
         company: "Google",
-        title: "Co-Founder",
+        speciality: "Co-Founder",
         age: 51,
         yearsAtCompany: 20,
         booksPublished: 0,
         isMarried: true,
         hasChildren: 2,
         isPoor: false,
-        notableAchievements: ["Created Google", "Pioneered Google Search"]
+        notaAleAchievements: ["Created Google", "Pioneered Google Search"]
     },
-    
+
 ]
+console.log(techLeaders);  
 
 
-console.log(techLeaders[19]);
+
+// Дарина любит красный, у нее нет нелюбимого цвета, нейтральный - оранжевый
+let DarinasFavouriteColor = 'красный';
+
+if (DarinasFavouriteColor == 'красный') {
+    console.log("Это любимый цвет Дарины");
+} else if (DarinasFavouriteColor == 'нет') {
+    console.log("Это не любимый цвет Дарины");
+} else {
+    console.log("Это нейтральный цвет для Дарины");
+}
+
+// Том любит черный и белый, но не любит розовый
+let TomsFavouriteColor = 'черный';
+
+if (TomsFavouriteColor == 'черный' || TomsFavouriteColor == 'белый') {
+    console.log("Это любимый цвет Тома");
+} else if (TomsFavouriteColor == 'розовый') {
+    console.log("Это не любимый цвет Тома");
+} else {
+    console.log("Это нейтральный цвет для Тома");
+}
+
+// Кэт любит розовый и фиолетовый, но не любит черный
+let CatsFavouriteColor = 'фиолетовый';
+
+if (CatsFavouriteColor == 'розовый' || CatsFavouriteColor == 'фиолетовый') {
+    console.log("Это любимый цвет Кэт");
+} else if (CatsFavouriteColor == 'черный') {
+    console.log("Это не любимый цвет Кэт");
+} else {
+    console.log("Это нейтральный цвет для Кэт");
+}
+
+// Сем любит синий и зеленый, но не любит оранжевый
+let SamsFavouriteColor = 'синий';
+
+if (SamsFavouriteColor == 'синий' || SamsFavouriteColor == 'зеленый') {
+    console.log("Это любимый цвет Сэма");
+} else if (SamsFavouriteColor == 'оранжевый') {
+    console.log("Это не любимый цвет Сэма");
+} else {
+    console.log("Это нейтральный цвет для Сэма");
+}
+
+// Боб любит желтый и серый, но не любит красный
+let BobsFavouriteColor = 'желтый';
+
+if (BobsFavouriteColor == 'желтый' || BobsFavouriteColor == 'серый') {
+    console.log("Это любимый цвет Боба");
+} else if (BobsFavouriteColor == 'красный') {
+    console.log("Это не любимый цвет Боба");
+} else {
+    console.log("Это нейтральный цвет для Боба");
+}
+
+// Джон любит белый и голубой, но не любит зеленый
+let JohnsFavouriteColor = 'белый';
+
+if (JohnsFavouriteColor == 'белый' || JohnsFavouriteColor == 'голубой') {
+    console.log("Это любимый цвет Джона");
+} else if (JohnsFavouriteColor == 'зеленый') {
+    console.log("Это не любимый цвет Джона");
+} else {
+    console.log("Это нейтральный цвет для Джона");
+}
