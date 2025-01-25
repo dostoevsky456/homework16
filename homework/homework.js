@@ -399,3 +399,50 @@ if (JohnsFavouriteColor == 'белый' || JohnsFavouriteColor == 'голубо�
 } else {
     console.log("Это нейтральный цвет для Джона");
 }
+
+
+
+let i = 1;
+  while (i <= 10) {
+ i++
+ console.log(i)
+};
+
+let totalSum = 0;
+let ih = 1
+while (ih <= 100) {
+    ih++;
+    totalSum += ih;}
+console.log(totalSum); 
+
+let is = 1; 
+while (is <= 20) { 
+    if (is % 2 === 0) { 
+        i++;
+}   }
+console.log(is);
+
+
+let arr = [1, 2, 3, 4, 5]; 
+let newArr = [];
+for (let i = 0; i < arr.length; i++) {
+    newArr[i] = arr[i] * 2;
+}
+console.log(newArr); 
+
+
+let n = parseInt(prompt("Введите количество чисел в последовательности Фибоначчи: ")); 
+let a = 0, b = 1; 
+
+console.log(a);
+if (n > 1) console.log(b);
+
+for (let i = 3; i <= n; i++) { 
+    let next = a + b;
+    console.log(next);
+    a = b;
+    b = next;
+
+}
+
+ 

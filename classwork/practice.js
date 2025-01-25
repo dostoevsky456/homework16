@@ -79,9 +79,51 @@
     //console.log(key + 'i' + user[key]);
 //}
 
-for (let i = 0; i < 50; i++) {
-    if (i % 2 == 0) {
-    console.log(i);
-    }
-}
+//  (let i = 0; i < 50; i++) {
+//     if (i % 2 == 0) {
+//     console.log(i);
+//     }
+// }
+    
+// for(let i = 0;i < -10; i--)  {
+//     console.log(i**2); 
+// }
+
+
+// let a = 10
+// let b = 8
+// function multy () {
+//     console.log(a * b);
+// } multy (10, 8)
+
+
+let i = 1; 
+function number ()  {
+ (i <= 20)
+ if (i % 2 === 0) {
+ }
+} console.log(i);
+
+
+
+
+
+
+// let j = 1; 
+// while (j <= 20) { 
+//     if (j % 2 === 0) { 
+//         i++;
+// }   }
+// console.log(j);
+
+
+
+// function divisioh (i, j) {
+//     console.log(i - j);
+// } divisioh (20, 10) 
+// divisioh (200, 100)
+
+
+   
+
 
